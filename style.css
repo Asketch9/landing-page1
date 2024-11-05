@@ -1,0 +1,122 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg, 17%, 70%,0.5);
+    display: flex;
+ 
+}
+
+#part1 {
+    height: 100%;
+    width: 26%;
+    
+}
+
+#part2 {
+    height: 100%;
+    width: 68%;
+    background-color: rgb(58, 160, 207);
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9kZWx8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    background-color:hsla(328, 14%, 48%, 0.389);
+}
+
+#part3 {
+    height: 100%;
+    width: 7%;
+    
+}
+
+#text-div {
+    /* height: 300px; */
+    position: absolute;
+    width: 300px;
+    /* background-color: red; */
+    left: 10%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#text-div h1 {
+    font-size: 95px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 8px;
+    color: whitesmoke;
+}
+
+#small-img {
+    height: 350px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fG1vZGVsfGVufDB8fDB8fHww);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+
+#vertical-text {
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    transform: rotate(90deg);
+    right: -54%;
+    top: -1%;
+    transform-origin: 0% 0%;
+}
+
+#vertical-text h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: transparent;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    text-transform: uppercase;
+}
+
+#nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    left: 7%;
+    top: 5%;
+    /* background-color: red; */
+}
+
+#nav img {
+    height: 60px;
+}
+
+#nav h6 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
